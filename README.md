@@ -8,7 +8,7 @@ It mainly has 3 entities
 - Products
 - Charts
 ##
-Databse used for storing details of entities is Postgres.
+Database used for storing details of entities is Postgres.
 
 
 ## How to setup.
