@@ -29,17 +29,20 @@ JWT_SECRET=<JWT secret used to sign token> Example: secret
 JWT_TTL=<time for which a token should be valid> Example : 3600s
 - Run the following commad to creat tables in your database : <npm run migration:run>
 - Run the following command to start your service: <npm run start>
-- Use the PostMan Collection Attached <BOLSTER.postman_collection.json> and import it in your postman Application.
+- Use the PostMan Collection Attached and import it.
 - There a sampleData.json file which has seed data. Hit the <http://localhost:<SERVICE_PORT>/api/v1/seed> to populate tables with seed data.
 - Now you are ready to test other APIs of the application.
-
+/api/v1/login - POST
+/api/v1/list-products - GET
+/api/v1/my-products - GET
+/api/v1/profile - GET
+/api/v1/analytics - GET
 
 
 ## Stay in touch
 
 - Author - [Mohammad Shahzeb Siddiui]
 - Email - [shah10zeb@gmail.com]
-
 
 ## License
 
